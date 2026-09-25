@@ -31,10 +31,27 @@ public static void cuentaRegresiva(int n){
 
 }
 
-    public static void main(String[] a) {
+
+public static int sumaRecursiva(int[] datos, int n) {
+
+        if (n < 1) {
+            return 0;
+        } else {
+            return datos[n -1] + sumaRecursiva(datos, n -1);
+        }
+    }
+
+public static void main(String[] a) {
 
         //saludo(10, "Emmanuel");
-	cuentaRegresiva(100);
+        //cuentaRegresiva(100);
+	
+	int [] datos={1,2,3,4,5};
+	
+	int resultado=sumaRecursiva(datos,datos.length);
+        
+        System.out.println("total de la suma :" + resultado);
 
     }
+
 }
