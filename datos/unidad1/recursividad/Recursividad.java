@@ -11,6 +11,14 @@ public class Recursividad {
 
         saludo(total - 1, nombre);
     }
+
+
+/**
+nombre:José Emmanuel Arredondo Escalante
+fecha: 25 de septimbre de 2026
+se hizo la funcionalidad de cuenta regresiva
+
+**/
 public static void cuentaRegresiva(int n){
 
 	if (n < 1 ){
