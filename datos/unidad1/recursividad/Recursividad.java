@@ -30,7 +30,12 @@ public static void cuentaRegresiva(int n){
 	}
 
 }
+/**
+nombre:José Emmanuel Arredondo Escalante
+fecha: 25 de septimbre de 2026
+se hizo la funcionalidad de suma de un arregloo
 
+**/
 
 public static int sumaRecursiva(int[] datos, int n) {
 
